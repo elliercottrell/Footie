@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  background: linear-gradient(90deg, #c21a1a 50%, #ffffff 50%);
+}
+
+h1,
+h2 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #004996;
+}
+
+h3 {
+  font-family: "Bungee Outline", cursive;
+  font-size: 150px;
+  text-align: center;
+  font-weight: bolder;
+}
+#hungary {
+  color: #c21a1a;
+}
+
+#england {
+  color: #004996;
+}
+button {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  border: solid 5px #2e4f50;
+  border-radius: 0px;
+  font-family: "Bungee Shade", cursive;
+  font-weight: bold;
+  font-size: 40px;
+  background: #fff;
+  color: #2e4f50;
+  margin-top: 20px;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  color: #fff;
+  background: #2e4f50;
+  border: solid 5px #fff;
+  cursor: pointer;
+}
